@@ -1,5 +1,5 @@
 import { redirect } from 'next/navigation'
 
 export default function LegacyCredentialVaultRoute() {
-  redirect('/challenges/dns-reconnaissance')
+  redirect('/challenges/idor-broken-access-control')
 }
